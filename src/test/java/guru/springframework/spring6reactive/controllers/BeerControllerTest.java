@@ -29,7 +29,6 @@ class BeerControllerTest {
     @Test
     @Order(2)
     void testListBeers() {
-
         webTestClient.get()
                 .uri(BeerController.BEER_PATH)
                 .exchange()
